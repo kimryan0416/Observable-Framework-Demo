@@ -6,7 +6,8 @@
     "build": "rimraf dist && observable build",
     "dev": "observable preview",
     "predeploy": "npm run build",
-    "deploy": "touch dist/.nojekyll && gh-pages -d dist",
+    "deploy_mac": "touch dist/.nojekyll && gh-pages -d dist -b gh-pages",
+    "deploy_windows": "type nul > dist/.nojekyll && gh-pages -d dist -b gh-pages",
     "observable": "observable"
   },
   "dependencies": {
