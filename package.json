@@ -2,11 +2,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "clean": "rimraf src/.observablehq/cache && rimraf docs/.observablehq/cache",
+    "clean": "rimraf docs/.observablehq/cache",
     "build": "rimraf dist && observable build",
     "dev": "observable preview",
     "predeploy": "npm run build",
-    "deploy": "touch dist/.nojekyll && gh-pages -d dist -t true",
+    "deploy": "touch dist/.nojekyll && gh-pages -d dist",
     "observable": "observable"
   },
   "dependencies": {
