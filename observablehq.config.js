@@ -6,15 +6,19 @@ export default {
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
-  // pages: [
-  //   {
-  //     name: "Examples",
-  //     pages: [
-  //       {name: "Dashboard", path: "/example-dashboard"},
-  //       {name: "Report", path: "/example-report"}
-  //     ]
-  //   }
-  // ],
+  pages: [
+    {
+      name: "Examples",
+      pages: [
+        {name: "Hello World", path: "/hello_world"},
+        {name: "Iris Dataset", path:"/iris"},
+        {name: "Popular Movie Quotes", path:"/quotes"},
+        {name: "Imported Notebook Blocks", path:"/importing"},
+        {name: "Imported Whole Notebooks", path: "/guide"},
+        {name: "Data Loaders", path:"/data_loaders"},
+      ]
+    }
+  ],
 
   // Content to add to the head of the page, e.g. for a favicon:
   head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32">',

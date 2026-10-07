@@ -1,3 +1,7 @@
+---
+theme: "air"
+---
+
 # Guide Example
 
 ---
@@ -9,6 +13,6 @@ import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/run
 ```
 
 ```js
-import guide from 'https://api.observablehq.com/@rk2546/guide-imports.js?v=3';
+import guide from 'https://api.observablehq.com/@rk2546/guide-project_structure.js?v=3';
 new Runtime().module(guide, Inspector.into('#guide'));
 ```

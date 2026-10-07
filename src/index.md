@@ -4,6 +4,6 @@ This is the home page of your new Observable Framework app.
 
 For more, see <https://observablehq.com/framework/getting-started>.
 
-For additional materials, check out our other notebooks: <https://observablehq.com/@rk2546/2025-infovis-cse_notebook-gallery>
+For additional materials, check out our other notebooks: <https://observablehq.com/@rk2546/2026-infovis-cse_notebook-gallery>
 
 Otherwise, welcome!

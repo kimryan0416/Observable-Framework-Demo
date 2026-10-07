@@ -1,3 +1,7 @@
+---
+theme: "glacier"
+---
+
 # Anderson's Iris Dataset
 
 ```js
@@ -7,9 +11,9 @@ import { unique } from './components/unique.js';
 ```js
 const data = await FileAttachment('./data/iris.csv').csv({typed:true});
 
-const   width = 400, 
-        height=400, 
-        margins={top:50,left:50,right:50,bottom:50};
+const  width = 400, 
+       height = 400, 
+       margins = { top:50, left:50, right:50, bottom:50 };
 
 const svg = d3.create('svg')
     .attr('width',width+margins.left+margins.right)
